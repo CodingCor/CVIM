@@ -1,0 +1,4 @@
+plugged/
+!plugged/.gitignore
+undodir/
+!undodir/.gitignore
