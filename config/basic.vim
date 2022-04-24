@@ -56,4 +56,7 @@ set nobackup
 set undodir=~/.config/nvim/undodir
 set undofile
 
-
+" set code folding
+set foldmethod=syntax
+set nofoldenable
+set foldlevel=99

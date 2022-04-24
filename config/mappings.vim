@@ -5,15 +5,21 @@ nnoremap <S-TAB> :bprevious<CR>
 
 " Buffer handling
 nnoremap <leader><TAB> :ls <CR>
-nnoremap <leader>b :buffer 
+" nnoremap <leader>b :buffer  done with fzf
+
 " Buffer window movement
 nnoremap <C-h> :wincmd h <CR>
 nnoremap <C-l> :wincmd l <CR>
 nnoremap <C-j> :wincmd j <CR>
 nnoremap <C-k> :wincmd k <CR>
+
+" Buffer resizing 
+nnoremap <C-n> :vertical resize -5<CR>
+nnoremap <C-m> :vertical resize +5<CR>
+
 " Buffer split creations
-nnoremap <C-x> :split <CR>
-nnoremap <C-v> :vsplit <CR>
+" nnoremap <C-x> :split <CR>
+" nnoremap <C-v> :vsplit <CR>
 
 " Open a terminal
 " Open a terminal
