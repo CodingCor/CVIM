@@ -13,6 +13,7 @@ set modelines=0
 set exrc
 " visual aids
 set number relativenumber
+set cursorline
 set ruler
 set visualbell
 set encoding=utf-8
@@ -60,3 +61,4 @@ set undofile
 set foldmethod=syntax
 set nofoldenable
 set foldlevel=99
+
