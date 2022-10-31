@@ -10,7 +10,9 @@ filetype plugin indent on
 
 set modelines=0
 
+" read vimrc from local directories
 set exrc
+
 " visual aids
 set number relativenumber
 set cursorline
@@ -30,11 +32,11 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
-set noshiftround
+"set noshiftround
 set smartindent
 
 " cursor motions
-set scrolloff=5
+set scrolloff=8
 set backspace=indent,eol,start
 set matchpairs+=<:>
 

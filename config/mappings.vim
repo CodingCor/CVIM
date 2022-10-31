@@ -3,8 +3,8 @@ nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
 
-" Buffer handling
-nnoremap <leader><TAB> :ls <CR>
+" Buffer handling done with fzf
+" nnoremap <leader><TAB> :ls <CR>
 " nnoremap <leader>b :buffer  done with fzf
 
 " Buffer window movement
@@ -14,8 +14,9 @@ nnoremap <C-j> :wincmd j <CR>
 nnoremap <C-k> :wincmd k <CR>
 
 " Buffer resizing 
-nnoremap <C-n> :vertical resize -5<CR>
-nnoremap <C-m> :vertical resize +5<CR>
+" nnoremap <C-n> :vertical resize -5<CR>
+" does not work right now
+" nnoremap <C-m> :vertical resize +5<CR> 
 
 " Buffer split creations
 " nnoremap <C-x> :split <CR>

@@ -34,12 +34,15 @@ call plug#end()
 
 colorscheme monokai_pro
 set termguicolors
+" transparent neovim background
+highlight Normal guibg=none
+highlight NonText guibg=none
 
 "source ~/.config/nvim/plugged-configs/airline.vim
 source ~/.config/nvim/plugged-configs/coc.vim
 source ~/.config/nvim/plugged-configs/fzf.vim
 source ~/.config/nvim/plugged-configs/floattermin.vim
-source ~/.config/nvim/plugged-configs/cmake.vim
+"source ~/.config/nvim/plugged-configs/cmake.vim
 source ~/.config/nvim/plugged-configs/nerdtree.vim
 source ~/.config/nvim/plugged-configs/FixCursorHold.vim
 source ~/.config/nvim/plugged-configs/nvim-hardline.lua
